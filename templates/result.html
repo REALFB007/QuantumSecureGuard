@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QuantumShield Result</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; background: #f0f0f0; }
+        .POST QUANTUM CRYTOGRAPHY RISK { color: red; font-size: 32px; }
+        .medium { color: orange; font-size: 32px; }
+        .low { color: green; font-size: 32px; }
+        pre { background: #eee; padding: 20px; text-align: left; display: inline-block; }
+        button { padding: 15px 30px; font-size: 18px; background: #2ecc71; color: white; border: none; cursor: pointer; margin: 20px; }
+        h2{
+        color: #ff5733;}
+       </style>
+</head>
+<body>
+    <h1>QuantumShield Result</h1>
+    <h2 class="{{ risk.lower() }}">{{ risk }} RISK</h2>
+    <p>{{ message }}</p>
+    <p><strong>Target:</strong> {{ url }}</p>
+    
+    <h3>Component Analysis:</h3>
+    <ul style="list-style: none; padding: 0;">
+    {% for f in findings %}
+        <li>• {{ f }}</li>
+    {% endfor %}
+    </ul>
+    
+    <h3>Recommended Fixes:</h3>
+    <ul style="list-style: none; padding: 0;">
+    {% for f in fixes %}
+        <li>• {{ f }}</li>
+    {% endfor %}
+    </ul>
+    
+    <h3>Sample Kyber Code (Key Exchange):</h3>
+    <pre>{{ kyber_code }}</pre>
+    
+    <h3>Sample Dilithium Code (Signature):</h3>
+    <pre>{{ dilithium_code }}</pre>
+    
+    <a href="/download/{{ pdf_filename }}"><button>DOWNLOAD PDF REPORT</button></a>
+    <br><br>
+    <a href="/">Scan Another Site</a>
+</body>
+</html>
