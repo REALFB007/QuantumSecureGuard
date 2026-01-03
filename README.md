@@ -1,9 +1,9 @@
 # QuantumShield - A Step Towards Future Security
 **Post-Quantum Cryptography Vulnerability Scanner**
 
-Biult on **Kali Linux** with **Python** and **Flask**
+Biult in**Kali Linux** with **Python** and **Flask**
 
-
+## Overview
 A powerful, easy-to-use tool that scans websites for **Shor-vulnerable** cryptographic algorithms (RSA, ECC, ECDH) and recommends migration to **quantum-safe** alternatives like **Kyber** and **Dilithium**.
 
 Built for the quantum era — detect today's risks before quantum computers break them.
