@@ -18,7 +18,7 @@ Built for the quantum era — detect today's risks before quantum computers brea
 - Professional **PDF report** with findings and fixes
 - Clean Flask web interface
 
-## 🎥 Demo Video
+##  Demo Video
 
 <a href="Quantum.mp4">
   <img src="quantum.jpg" alt="Click to play QuantumShield demo video" width="900" style="cursor: pointer; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);"/>
