@@ -19,7 +19,7 @@ Built for the quantum era — detect today's risks before quantum computers brea
 ## 🎥 Demo Video
 
 <a href="Quantum.mp4">
-  <img src="quantum.jpg" alt="Click to play QuantumShield demo video" width="600" style="cursor: pointer; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);"/>
+  <img src="quantum(2).jpg" alt="Click to play QuantumShield demo video" width="600" style="cursor: pointer; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);"/>
 </a>
 
 ## 🚀 Quick Start
