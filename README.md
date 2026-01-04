@@ -1,5 +1,5 @@
 # QuantumShield - A Step Towards Future Security
-**Post-Quantum Cryptography Vulnerability Scanner**
+**Real Time Post-Quantum Cryptography Vulnerability Scanner**
 
 Built in **Kali Linux** with **Python** and **Flask**
 
