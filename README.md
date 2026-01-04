@@ -1,4 +1,4 @@
-# QuantumShield - A Step Towards Future Security
+# QuantumSecureGuard - A Step Towards Future Security
 **Real Time Post-Quantum Cryptography Vulnerability Scanner**
 
 Built in **Kali Linux** with **Python** and **Flask**
@@ -21,14 +21,14 @@ Built for the quantum era — detect today's risks before quantum computers brea
 ##  Demo Video
 
 <a href="Quantum.mp4">
-  <img src="quantum.jpg" alt="Click to play QuantumShield demo video" width="900" style="cursor: pointer; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);"/>
+  <img src="quantum.jpg" alt="Click to play QuantumSecure demo video" width="900" style="cursor: pointer; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);"/>
 </a>
 
 ## Quick Start
 
 ```bash
-git clone https://github.com/REALFB007/QuantumShield.git
-cd QuantumShield
+git clone https://github.com/REALFB007/QuantumSecureGuard.git
+cd QuantumSecureGuard
 python -m venv venv
 source venv/bin/activate
 pip install flask reportlab
